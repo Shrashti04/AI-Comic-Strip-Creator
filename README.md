@@ -1,42 +1,25 @@
+# AI Comic Strip Generator  
 
-# AI based Comics Generator
+## 🔥 Overview  
+AI Comic Strip Generator is an AI-powered application that creates comic strips using **Stable Diffusion (for images)** and **GPT-4 (for dialogues)**. The project allows users to generate and edit comic panels based on textual prompts, combining **image generation and AI-driven storytelling**.  
 
-This project uses AI to generate comic images based on provided prompts. It uses the Stability API for image generation and editing.
+## 🚀 Features  
+- **Text-to-Image Generation**: Uses **Stable Diffusion** to generate high-quality comic panels.  
+- **AI Dialogues**: Integrates **GPT-4** for dynamic and engaging comic dialogues.  
+- **User-Friendly UI**: Built with **Streamlit**, making it easy to interact with the model.  
+- **Custom Image Editing**: Modify existing images using Stability AI's APIs.  
+- **Fast Deployment**: Can be hosted using **FastAPI**.  
 
-## Setup
+## 📌 Tech Stack  
+### **🛠 Libraries & Tools**  
+- **Generative AI**: Stable Diffusion, GPT-4, Hugging Face Transformers  
+- **NLP & ML**: LangChain, spaCy, NLTK, TensorFlow/PyTorch  
+- **Frameworks**: Streamlit (UI), FastAPI (Deployment)  
+- **Cloud APIs**: OpenAI API, Stability AI API  
 
-1. **Environment Variables**: Copy the `sample.env` file and rename it to `.env`. Fill in the required API keys:
+## 🏗️ Setup Instructions  
 
-    ```env
-    OPENAI_API_KEY= YOUR OPEN API KEY
-    STABILITY_KEY= YOUR STABILITY API KEY
-    TOGETHER_API_KEY= YOUR TOGETHER API KEY
-    ```
-
-2. **Install Dependencies**: This project uses Python and pip for package management. Install the required packages with the following command:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Running the Application
-
-To run the application, execute the `app.py` file using Streamlit:
-
+### 1️⃣ **Clone the Repository**  
 ```bash
-streamlit run app.py
-```
-
-This will start the Streamlit server and the application will be accessible at `localhost:8501` in your web browser.
-
-## Usage
-
-The application generates comic images based on the prompts you provide. You can also edit existing images by providing an image path and a prompt.
-
-## Contributing
-
-Contributions are welcome. Please open an issue to discuss your ideas or submit a pull request with your changes.
-
-## License
-
-This project is licensed under the terms of the MIT license.
+git clone https://github.com/Nafay-0/AI-Comic-Generation.git
+cd AI-Comic-Generation
